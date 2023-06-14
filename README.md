@@ -5,5 +5,6 @@ The " RPI Zero " directory contains the firmware for the wifi and a preconfigure
 
 the configdb.lrp will add:
 
-in /etc/inittab with: ttyAMA0::respawn:/sbin/getty -L ttyAMA0 115200 vt100
-in /etc/securetty : ttyAMA0
+ in /etc/inittab : ttyAMA0::respawn:/sbin/getty -L ttyAMA0 115200 vt100
+ 
+ in /etc/securetty : ttyAMA0
